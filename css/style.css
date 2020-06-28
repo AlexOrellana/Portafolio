@@ -1,0 +1,284 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #878787;
+	background-color: #2d2d2d;
+}
+
+header{
+	background-color: #2d2d2d;
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+	z-index: 9999999;
+}
+
+footer{
+	padding-top: 1%;
+}
+
+footer i{
+	color: #878787;
+}
+
+header img{
+	width: 50%;
+}
+
+.logo{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+#inicio{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	text-align: left;
+}
+
+#info{
+	background-color: #4F6973;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: left;
+	color: #fff;
+}
+
+#info img{
+	width: 100%;
+}
+
+#info .carousel-item{
+	height: 400px;
+}
+
+#info h1,p{
+	text-align: left;
+}
+
+#studios{
+	padding: 10px;
+}
+
+#info-estudios{
+	padding: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: left;
+	color: #fff;
+	width: 100%;
+}
+
+/*#info-estudios img{
+	max-width:100%;
+    height:auto;
+	padding-top: 20%;
+}*/
+
+#info-estudios  {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+#info-estudios  img {
+padding-top: 20%;
+  object-fit:scale-down;
+  width: 100%;
+  height: 200px;
+}
+
+
+#info-estudios .carousel-item{
+	height: 300px;
+}
+
+#info-estudios h1,p{
+	text-align: left;
+	color: #C1D4D9;
+}
+
+
+#info-adobe p{
+	margin: 0;
+}
+
+#info-adobe img{
+	max-width: 100%;
+    height: auto;
+}
+
+#firstDiv{
+	color: #C1D4D9;
+	padding: 0;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+#firstDiv2{
+	color: #C1D4D9;
+}
+
+.btn-img{
+	width: 100%;
+	margin: 10px;
+	padding: 0;
+	border: none;
+	border-radius: 0px;
+	background: none;
+}
+
+#yo{
+	background-color: rgba(255,255,255,0.53);
+	padding: 10px;
+}
+
+#mi-foto{
+	background-image: url("../img/Alex2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	padding: 30% 0;
+	text-align: center;
+}
+
+.mi-foto{
+	/*width: 50%;
+	padding: 0;*/
+	
+	max-width:50%;
+    height:auto;
+
+}
+
+.profesion{
+	/*width: 50%;
+	padding: 0;*/
+	color: #fff;
+
+}
+
+#imagen-ejem{
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+#imagen-ejem img {
+  padding-top: 5%;
+  object-fit: scale-down;
+  width: 100%;
+  height: 300px;
+}
+
+#service{
+	padding: 5%;
+	color: #fff;
+	background-color: #212121;
+}
+
+#servicios h1{
+	text-align: center;
+	padding-bottom: 1%;
+	color: #FFFFFF;
+}
+
+#servicios h4{
+	text-align: center;
+	font-size: 30px;
+	color: #C1D4D9;
+	font-weight: 600;
+	margin-bottom: 1%;
+}
+
+#servicios p{
+	text-align: left;
+}
+
+.circulo{
+	width: 100%;
+    text-align: center;
+	line-height: 100px;
+	/*border: 1px solid #ddd;*/
+	display: block;
+	margin: auto;
+	font-size: 40px;
+	color: #C1D4D9;
+}
+
+#Portafolio{
+	padding: 5%;
+	color: #C1D4D9;
+}
+
+#Portafolio h1{
+	padding: 1%;
+}
+
+#Portafolio{
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+#Portafolio img {
+  padding: 1%;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+form#contacto input{
+	background-color: #f1f2f3;
+	border-radius: 0;
+	padding: 20px;
+	border: 0;
+	font-size: 13px;
+}
+
+form#contacto textarea{
+	background-color: #f1f2f3;
+	border-radius: 0;
+	padding: 20px;
+	border: 0;
+	font-size: 13px;
+}
+
+#contact-form h2{
+	color: #fff;
+}
+
+#contact-form h1{
+	color: #fff;
+}
+
+#contact-form ul{
+	color: #fff;
+}
+
+#contact-form{
+	margin-bottom: 5%;
+}
+
+#info-contacto{
+	background-color: #212121;
+}
+
+#info-contacto{
+  position: relative;
+  width: 100%;
+  padding: 2%;
+}
+
+
+
+
